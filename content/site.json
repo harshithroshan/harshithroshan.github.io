@@ -8,14 +8,14 @@
   "siteDescription": "Personal academic website of Harshith Roshan Krishna Kumar, undergraduate psychology researcher at Ashoka University — research projects, resume and academic writing in cognitive and clinical psychology.",
   "language": "en",
 
-  "_baseUrl": "The live address of the deployed site, with a trailing slash. It is only used for canonical URLs, Open Graph tags and the sitemap — page links are relative, so the site works at any path. Current repo: harshithroshankrishnakumarug2023-ops/harshithroshan.github.io, which GitHub Pages serves from a sub-folder because the repository name is not the same as the account name.",
-  "baseUrl": "https://harshithroshankrishnakumarug2023-ops.github.io/harshithroshan.github.io/",
+  "_baseUrl": "The live address of the deployed site, with a trailing slash. It is only used for canonical URLs, Open Graph tags and the sitemap — page links are relative, so the site works at any path. The repository is harshithroshan/harshithroshan.github.io, so GitHub Pages serves it from the account root.",
+  "baseUrl": "https://harshithroshan.github.io/",
 
   "_links": "Leave a URL empty (\"\") and the site shows a clearly marked placeholder instead of a broken or invented link. Fill these in when you have them.",
   "links": {
     "email": "roshanharshith@gmail.com",
     "linkedin": "https://www.linkedin.com/in/harshith-roshan-4b0402294",
-    "github": "https://github.com/harshithroshankrishnakumarug2023-ops"
+    "github": "https://github.com/harshithroshan"
   },
 
   "_nav": "Navigation labels and destinations. Paths are relative to the site root, no leading slash.",

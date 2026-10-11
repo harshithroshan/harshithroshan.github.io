@@ -6,8 +6,8 @@ publication and project archive, and document library.
 Built as a **static site** and deployed to **GitHub Pages**. No backend, no
 database, no build server, no paid services, no third-party JavaScript.
 
-- **Live site:** `https://harshithroshankrishnakumarug2023-ops.github.io/harshithroshan.github.io/`
-- **This repository:** `https://github.com/harshithroshankrishnakumarug2023-ops/harshithroshan.github.io`
+- **Live site:** `https://harshithroshan.github.io/`
+- **This repository:** `https://github.com/harshithroshan/harshithroshan.github.io`
 
 ### Where things live
 
@@ -16,7 +16,7 @@ materials in its own repository, and the site links straight to the files there.
 
 | Repository | Holds |
 | --- | --- |
-| `harshithroshankrishnakumarug2023-ops` | the GitHub profile README |
+| `harshithroshan` | the GitHub profile README |
 | `thesis-inhibitory-control` | the ICSSR research proposal |
 | `eyes-on-the-task` | the project report and stimulus sheets |
 | `zebrafish-quantity-discrimination` | the ideation document and literature review |
@@ -113,7 +113,7 @@ The repository already contains the workflow `.github/workflows/deploy.yml`.
 Once, in GitHub:
 
 1. Push this project to the repository
-   `harshithroshankrishnakumarug2023-ops/harshithroshan.github.io` (main branch).
+   `harshithroshan/harshithroshan.github.io` (main branch).
 2. Open **Settings → Pages**.
 3. Under **Source**, choose **GitHub Actions** (not "Deploy from a branch").
 4. Save. The first deployment starts automatically.
@@ -129,16 +129,17 @@ The workflow:
 4. uploads `dist/` as the Pages artifact,
 5. publishes it to GitHub Pages.
 
-**About your address.** Because the repository name (`harshithroshan.github.io`)
-differs from the account name, GitHub serves the site from a sub-folder:
+**About your address.** The repository is named `harshithroshan.github.io`,
+matching the account name, so GitHub recognises it as the account's user site
+and serves it from the root:
 
 ```
-https://harshithroshankrishnakumarug2023-ops.github.io/harshithroshan.github.io/
+https://harshithroshan.github.io/
 ```
 
-That is already recorded in `content/site.json` as `baseUrl` (used only for
-canonical links, Open Graph tags and the sitemap), and all internal links are
-relative, so the site works unchanged.
+That is recorded in `content/site.json` as `baseUrl` (used only for canonical
+links, Open Graph tags and the sitemap). All internal links are relative, so the
+site works unchanged even if the address changes again.
 
 If you later add a **custom domain**, put the domain in a `CNAME` file at the
 repository root, point DNS at GitHub's servers, enable "Enforce HTTPS", and
